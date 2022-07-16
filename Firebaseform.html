@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase App</title>
+    <link rel="stylesheet" href="./FirebaseAppStyle.css">
+</head>
+
+<body>
+    <div id="form">
+        <div id="heading">
+            <span id="head">Contact Us</span>
+        </div>
+        <form action="">
+            <div class="field">
+                <input type="text" id="namebox" placeholder="Name">
+            </div>
+            <div class="field">
+                <input type="text" id="emailbox" placeholder="Email">
+            </div>
+            <div class="text">
+                <textarea name="message" id="text1" cols="30" rows="5" placeholder="Message"></textarea>
+            </div>
+            <div class="butt">
+                <button class="btn">Send</button>
+            </div>
+        </form>
+    </div>
+    <script type="module" src="./script.js"></script>
+    <script type="module" src="./firebaseconfig.js"></script>
+</body>
+
+</html>

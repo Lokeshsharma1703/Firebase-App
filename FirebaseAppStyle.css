@@ -1,0 +1,108 @@
+body {
+    background: linear-gradient(120deg, rgb(239, 0, 163), rgb(166, 5, 175), blue);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form {
+    height: 400px;
+    width: 500px;
+    background-color: rgb(229, 242, 251);
+    border-radius: 10px;
+    box-shadow: 15px 15px 50px black;
+}
+
+#heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#head {
+    text-shadow: 5px 5px 10px gray;
+}
+
+input[type="text"] {
+    height: 35px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    border-bottom: 3px blue solid;
+    border-right: 3px blue solid;
+    border-top: 3px rgb(232, 6, 209) solid;
+    border-left: 3px rgb(232, 6, 209) solid;
+    transition: .5s;
+}
+
+input[type="text"]:hover {
+    box-shadow: 10px 10px 10px gray;
+    border-bottom: 3px rgb(232, 6, 209) solid;
+    border-right: 3px rgb(232, 6, 209) solid;
+    border-top: 3px blue solid;
+    border-left: 3px blue solid;
+    transform: scale(1.02);
+}
+
+form {
+    margin-top: 30px;
+}
+
+.field {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#text1 {
+    height: 60px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    border-bottom: 3px blue solid;
+    border-right: 3px blue solid;
+    border-top: 3px rgb(232, 6, 209) solid;
+    border-left: 3px rgb(232, 6, 209) solid;
+}
+
+#text1:hover {
+    box-shadow: 10px 10px 10px gray;
+    border-bottom: 3px rgb(232, 6, 209) solid;
+    border-right: 3px rgb(232, 6, 209) solid;
+    border-top: 3px blue solid;
+    border-left: 3px blue solid;
+    transform: scale(1.02);
+}
+
+.butt {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    background-color: skyblue;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 5px 5px 10px gray;
+}
+
+button:hover {
+    box-shadow: 10px 10px 10px gray;
+    transform: scale(1.02);
+}
